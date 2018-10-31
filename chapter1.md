@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-Welcome to the jungle, we've got fun and games. 
+Welcome to the jungle, we've got fun and games.
 
 `@instructions`
 Write code to flip 10 fair coins 10 times each.
