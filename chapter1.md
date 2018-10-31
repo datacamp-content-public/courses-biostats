@@ -1,6 +1,6 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Chapter one'
+description: 'It begins.'
 ---
 
 ## Example coding exercise
@@ -19,7 +19,7 @@ Welcome to the jungle, we've got fun and games.
 Write code to flip 10 fair coins 10 times each.
 
 `@hint`
-rbinom
+Try using the function called `rbinom`
 
 `@pre_exercise_code`
 ```{r}
