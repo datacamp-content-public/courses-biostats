@@ -3,22 +3,38 @@ title: 'Chapter Two'
 description: 'It continues'
 ---
 
-## Why do I exist?
+## Insert exercise title here
 
 ```yaml
-type: PureMultipleChoiceExercise
-key: 454fc02d25
-xp: 50
+type: NormalExercise
+key: e233a3ae70
+xp: 100
 ```
 
-What are you doing here?
+It is time again to do some coding. 
+
+`@instructions`
+Use rbinom to get some expectations for wildebeests.
 
 `@hint`
-Think deeply, repeat after me, "I'm sorry".
 
-`@possible_answers`
-I don't know
-You don't know
-[Who knows?]
 
-`@feedback`
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+rbinom( , , )
+```
+
+`@solution`
+```{r}
+rbinom(1000,8, 0.8)
+```
+
+`@sct`
+```{r}
+
+```
