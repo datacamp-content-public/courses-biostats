@@ -3,7 +3,7 @@ title: 'Chapter one'
 description: 'It begins.'
 ---
 
-## Example coding exercise
+## Can you flip coins?
 
 ```yaml
 type: NormalExercise
