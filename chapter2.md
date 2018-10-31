@@ -17,8 +17,6 @@ What are you doing here?
 Think deeply, repeat after me, "I'm sorry".
 
 `@possible_answers`
-I don't know
-You don't know
-[Who knows?]
+I don't know; You don't know; [Who knows?]
 
 `@feedback`
