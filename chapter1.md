@@ -29,7 +29,7 @@ Try using the function called `rbinom`
 `@sample_code`
 ```{r}
 #flip 1 fair coin once
-rbinom(1,1,0.5)
+rbinom( , , )
 ```
 
 `@solution`
