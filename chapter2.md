@@ -3,7 +3,7 @@ title: 'Chapter Two'
 description: 'It continues'
 ---
 
-## Insert exercise title here
+## Why do I exist?
 
 ```yaml
 type: PureMultipleChoiceExercise
