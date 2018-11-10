@@ -63,7 +63,7 @@ key: 4989b6fca9
 xp: 100
 ```
 
-Excellent work. Now, what do those numbers mean, in your results? 
+Excellent work. Now, what do those numbers mean, in your results? (Run the first two lines of code in the console to see the results again)
 
  Yep - each one is the number of successes out of 10. So, if we defined heads as success, these would be the number of heads out of 10 flips, in 10 separate samples. 
 
