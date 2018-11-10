@@ -39,5 +39,5 @@ rbinom(10,10, 0.5)
 
 `@sct`
 ```{r}
-check_output_expr("mtcars"); success_msg("Nice!")
+ex() %>% check_output_expr("mtcars"); success_msg("Nice!")
 ```
