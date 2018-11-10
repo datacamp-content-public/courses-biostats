@@ -26,7 +26,7 @@ We can ask for the results of coin flips (or any other process with only two out
 
 
 `@instructions`
-The function _rbinom_ needs three values - the number of samples, the number of flips per sample, and the probability of a success for a flip. Let us call heads a success and tails a failure. If we wanted to flip 10 coins, each 2 times, and each was a fair coin with equal 50% probability of heads and tails, we could write `rbinom (10 ,2 , 0.5)`. How would you ask for 10 flips of each of 10 fair coins?
+The function _rbinom_ needs three values - the number of samples, the number of flips per sample, and the probability of a success for a flip. Let us call heads a success and tails a failure. If we wanted to flip 10 coins, each 2 times, and each was a fair coin with equal 50% probability of heads and tails, we could write `rbinom (10 ,2 , 0.5)`. How would you ask for 10 flips of each of 10 fair coins? Assign the results to a vector called _x_.
 
 `@hint`
 Try using the function called `rbinom`
@@ -39,21 +39,17 @@ Try using the function called `rbinom`
 `@sample_code`
 ```{r}
 #flip 10 fair coin 10 times each
-rbinom( , , )
+x<-rbinom( , , )
 ```
 
 `@solution`
 ```{r}
-rbinom(10,10, 0.5)
+x<-rbinom(10,10, 0.5)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_function("rbinom") %>% {
-  check_arg(., "n") %>% check_equal()
-  check_arg(., "size") %>% check_equal()
-    check_arg(., "prob") %>% check_equal()
-}
+ex() %>% check_object("x") %>% check_equal()
                           success_msg("Nice!")
 ```
 
@@ -69,7 +65,7 @@ xp: 100
 
 Excellent work. Now, what do those numbers mean, in your results? 
 
-> ex()
+> 
 
  Yep - each one is the number of successes out of 10. So, if we defined heads as success, these would be the number of heads out of 10 flips, in 10 separate samples. 
 
