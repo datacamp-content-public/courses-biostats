@@ -39,5 +39,6 @@ rbinom(10,10, 0.5)
 
 `@sct`
 ```{r}
-ex() %>% check_output_expr("rbinom(10,10,0.5)"; success_msg("Nice!")
+ex() %>% check_output_expr("rbinom(10,10,0.5)"
+                          success_msg("Nice!")
 ```
