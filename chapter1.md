@@ -38,7 +38,7 @@ Try using the function called `rbinom`
 
 `@sample_code`
 ```{r}
-#flip 1 fair coin once
+#flip 10 fair coin 10 times each
 rbinom( , , )
 ```
 
