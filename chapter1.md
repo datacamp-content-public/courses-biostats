@@ -75,6 +75,7 @@ Try using the function called `rbinom`
 
 `@pre_exercise_code`
 ```{r}
+x<-rbinom(10,10,0.5)
 x
 ```
 
