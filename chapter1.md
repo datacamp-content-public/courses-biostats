@@ -33,7 +33,7 @@ Try using the function called `rbinom`
 
 `@pre_exercise_code`
 ```{r}
-
+set.seed(100)
 ```
 
 `@sample_code`
@@ -55,7 +55,7 @@ ex() %>% check_object("x") %>% check_equal()
 
 ---
 
-## Insert exercise title here
+## flipping lots of coins
 
 ```yaml
 type: NormalExercise
