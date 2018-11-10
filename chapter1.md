@@ -56,3 +56,47 @@ ex() %>% check_function("rbinom") %>% {
 }
                           success_msg("Nice!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 4989b6fca9
+xp: 100
+```
+
+Excellent work. Now, what do those numbers mean, in your results? Yep - each one is the number of successes out of 10. So, if we defined heads as success, these would be the number of heads out of 10 flips, in 10 separate samples. 
+
+`@instructions`
+So, let us pretend that we don't know anything about coins. What would happen over many, many flips? Write some code to flip one fair coin, 1000 times.
+
+`@hint`
+Try using the function called `rbinom`
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+#flip 10 fair coin 10 times each
+rbinom( , , )
+```
+
+`@solution`
+```{r}
+rbinom(1,1000, 0.5)
+```
+
+`@sct`
+```{r}
+ex() %>% check_function("rbinom") %>% {
+  check_arg(., "n") %>% check_equal()
+  check_arg(., "size") %>% check_equal()
+    check_arg(., "prob") %>% check_equal()
+}
+                          success_msg("Nice!")
+```
