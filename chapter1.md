@@ -75,13 +75,15 @@ Try using the function called `rbinom`
 
 `@pre_exercise_code`
 ```{r}
-x<-rbinom(10,10,0.5)
-x
+
 ```
 
 `@sample_code`
 ```{r}
-#flip 10 fair coin 10 times each
+x<-rbinom(10,10,0.5)
+x
+
+#flip 1 fair coin 1000 times 
 rbinom( , , )
 ```
 
