@@ -11,7 +11,7 @@ key: e233a3ae70
 xp: 100
 ```
 
-It is time again to do some coding. 
+It is time again to do some coding.
 
 `@instructions`
 Use rbinom to get some expectations for wildebeests.
