@@ -65,8 +65,6 @@ xp: 100
 
 Excellent work. Now, what do those numbers mean, in your results? 
 
-> 
-
  Yep - each one is the number of successes out of 10. So, if we defined heads as success, these would be the number of heads out of 10 flips, in 10 separate samples. 
 
 `@instructions`
@@ -77,7 +75,7 @@ Try using the function called `rbinom`
 
 `@pre_exercise_code`
 ```{r}
-
+x
 ```
 
 `@sample_code`
