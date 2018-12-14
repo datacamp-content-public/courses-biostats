@@ -21,8 +21,6 @@ Let's start with a simple example. (We will get to an interesting biological exa
 
 We can ask for the results of  any other process with only two outcomes (like heads/tails) with the command _rbinom_.
 
-
-
 `@instructions`
 The function _rbinom_ needs three values - the number of samples, the number of trials per sample, and the probability of a success for a trial. Let us call heads a success and tails a failure. If we wanted to flip 10 coins, each 2 times, and each was a fair coin with equal 50% probability of heads and tails, we could write `rbinom (10 ,2 , 0.5)`. How would you ask for 10 flips each for 10 fair coins? Assign the results to a vector called _x_, then print that vector out.
 
@@ -65,7 +63,7 @@ xp: 100
 
 Excellent work. Now, what do those numbers mean, in your results? (Run the first two lines of code in the script window to see the results again)
 
- Yep - each one is the number of successes out of 10. So, if we defined heads as success, these would be the number of heads out of 10 flips, for 10 separate coins. 
+ Yep - each one is the number of successes out of 10. So, if we defined heads as success, these would be the number of heads out of 10 flips, for 10 separate coins.
 
 `@instructions`
 So, let's pretend that we didn't know much about coins. What would happen over many, many flips? Write some code to flip one fair coin, 1000 times.
